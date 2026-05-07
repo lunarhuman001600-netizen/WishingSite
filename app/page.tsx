@@ -298,7 +298,7 @@ export default function BirthdayVault() {
             marginBottom: "2.25rem",
             letterSpacing: "-0.01em",
           }}>
-            Moon ✦
+            My Moon <3 ✦
           </h2>
 
           {/* ── Divider ── */}
